@@ -7,7 +7,7 @@ import { Arrow } from '../assets/Arrow';
 import { Thread } from "../assets/Thread";
 import { File } from "../assets/File";
 import { Shadow } from "../assets/Shadow";
-// import { Wave } from "../assets/wave";
+import { Wave } from "../assets/wave";
 
 export default function MainComponent() {
     return (
@@ -15,10 +15,10 @@ export default function MainComponent() {
             <section className="pt-[50px] grid xl:grid-flow-col">
                 <div className="content-section pt-[20px] md:pt-[47px] xl:pt-[75px] px-[30px] sm:px-[50px]">
                     <section className="relative">
-                        <div className="absolute scale-75 sm:scale-100">
-                            <div className="absolute w-[187px] h-[187px] bg-[#DBFB58] rounded-full opacity-10 md:opacity-20 blur-2xl left-[180px] sm:left-[280px] lg:left-[480px] xl:left-[510px] 2xl:left-[580px]"></div>
-                            <div className="absolute w-[187px] h-[187px] bg-[#E93314] rounded-full opacity-10 md:opacity-20 blur-2xl left-[305px] sm:left-[405px] lg:left-[605px] xl:left-[645px] 2xl:left-[735px]"></div>
-                            <div className="absolute w-[187px] h-[187px] bg-[#1F365C] rounded-full opacity-10 md:opacity-20 blur-2xl left-[242.5px] sm:left-[342.5px] lg:left-[542.5px] xl:left-[582.5px] 2xl:left-[652px]  top-[120px]"></div>
+                        <div className="relative scale-75 sm:scale-100">
+                            <div className="absolute w-[187px] h-[187px] bg-[#E93314] rounded-full opacity-40 md:opacity-40 blur-2xl right-1/2 top-1/2 transform translate-x-[100%] translate-y-[0%] md:translate-x-[100%] md:translate-y-[0%]"></div>
+                            <div className="absolute w-[187px] h-[187px] bg-[#DBFB58] rounded-full opacity-40 md:opacity-40 blur-2xl right-1/2 top-1/2 transform translate-x-[20%] translate-y-[0%] md:translate-x-[20%] md:translate-y-[0%]"></div>
+                            <div className="absolute w-[187px] h-[187px] bg-[#1F365C] rounded-full opacity-40 md:opacity-40 blur-2xl right-1/2 top-1/2 transform translate-x-[60%] translate-y-[60%] md:translate-x-[60%] md:translate-y-[60%]"></div>
                         </div>
                         <p className="text-[14px] pb-[13px] font-[500] 2xl:text-[16px] 2xl:pb-[26px]">
                             We Provide
@@ -52,7 +52,7 @@ export default function MainComponent() {
                         </div>
                     </section>
                     <section className="relative">
-                        <div className="hidden xl:inline-block md:flex flex-row items-center">
+                        <div className="hidden xl:flex flex-row items-center">
                             <FiveStar/>
                             <p className="pl-[12px] text-[#00000080] font-[300] leading-[21px] text-[12px] sm:text-[14px]">
                                 Trusted by thousands of people
