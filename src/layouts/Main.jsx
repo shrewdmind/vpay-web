@@ -15,27 +15,27 @@ export default function MainComponent() {
                 <div className="content-section pt-[10px] md:pt-[47px] xl:pt-[75px] px-[30px] sm:px-[50px]">
                     <section className="relative">
                         <div className="relative scale-75 sm:scale-100">
-                            <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#E93314] rounded-full opacity-20 md:opacity-40 blur-2xl right-1/2 top-1/2 transform translate-x-[100%] translate-y-[200%] md:translate-x-[100%] md:translate-y-[0%]"></div>
-                            <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#DBFB58] rounded-full opacity-20 md:opacity-40 blur-2xl right-1/2 top-1/2 transform translate-x-[10%] translate-y-[200%] md:translate-x-[20%] md:translate-y-[0%]"></div>
-                            <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#1F365C] rounded-full opacity-20 md:opacity-40 blur-2xl right-1/2 top-1/2 transform translate-x-[55%] translate-y-[260%] md:translate-x-[60%] md:translate-y-[60%]"></div>
+                            <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#E93314] rounded-full opacity-20 blur-2xl right-1/2 top-1/2 transform translate-x-[115%] translate-y-[200%] sm:translate-x-[170%] sm:translate-y-[0%] xl:translate-x-[180%] xl:translate-y-[10%]"></div>
+                            <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#DBFB58] rounded-full opacity-20 blur-2xl right-1/2 top-1/2 transform translate-x-[25%] translate-y-[200%] sm:translate-x-[90%] sm:translate-y-[0%] xl:translate-x-[100%] xl:translate-y-[10%]"></div>
+                            <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#1F365C] rounded-full opacity-20 blur-2xl right-1/2 top-1/2 transform translate-x-[70%] translate-y-[260%] sm:translate-x-[130%] sm:translate-y-[60%] xl:translate-x-[140%] xl:translate-y-[70%]"></div>
                         </div>
-                        <p className="text-[14px] pb-[13px] font-[500] 2xl:text-[16px] 2xl:pb-[26px]">
+                        <p className="text-[14px] pb-[13px] font-[500] xl:text-[14px] xl:leading-[21px] 2xl:pb-[26px]">
                             We Provide
                         </p>
-                        <div className="absolute left-[90px] top-[14px] 2xl:left-[110px] animate-bounce">
+                        <div className="absolute left-[90px] top-[14px] xl:left-[100px] animate-bounce">
                             <Arrow/>
                         </div>
-                        <h1 className="text-[38px] sm:text-[60px] lg:text-[76px] 2xl:text-[80px] lg:pt-[18px] lg:pb-[15px] font-[700] p-[0px] xl:pr-[450px] leading-[40px] sm:leading-[70px] 2xl:leading-[85px] 2xl:pr-[450px] 2xl:pt-[10px]">
+                        <h1 className="text-[34px] sm:text-[60px] md:text-[65px] lg:text-[76px] xl:text-[76px] 2xl:text-[80px] lg:pt-[18px] lg:pb-[15px] font-[700] p-[0px] xl:pr-[350px] sm:pr-[100px] md:pr-[100px] leading-[38px] sm:leading-[70px] xl:leading-[84px] 2xl:pr-[450px] 2xl:pt-[10px]">
                             Easiest Payment for any business
                         </h1>
-                        <p className="text-[14px] text-center sm:text-[15px] leading-[19px] md:leading-[22.5px] xl:pr-[460px] 2xl:pr-[560px] 2xl:leading-[30px] pt-[27px] 2xl:pt-[45px] font-[300] sm:pr-[80px] md:pr-[120px]">
+                        <p className="text-[13px] sm:text-[13.5px] xl:text-[15px] leading-[19px] md:leading-[22.5px] xl:pr-[320px] 2xl:pr-[560px] xl:leading-[22.5px] pt-[27px] 2xl:pt-[45px] font-[300] sm:pr-[40px] md:pr-[120px]">
                             Speed up your business payments. Use VPay for secure invoicing and bill payments for your every day business transactions and payable tools.
                         </p>
-                        <div className="absolute left-[50%] top-[-20px] xl:top-[120px] md:inline-block 2xl:top-[190px]">
+                        <div className="absolute left-[50%] xl:left-[55%] top-[-20px] md:inline-block xl:top-[-70px]">
                             <Thread />
                         </div>
                     </section>
-                    <section className="text-[14px] flex flex-col md:flex-row justify-center items-center py-[40px] sm:py-[35px]">
+                    <section className="text-[14px] flex flex-col sm:flex-row justify-center items-center md:justify-start py-[40px] sm:py-[35px]">
                         <div className="flex flex-row items-center px-[25px] md:px-[34px] py-[10px] m-0 bg-[#DBFB58] rounded-[30px]">
                             <Apple />
                             <button className="pl-[9px]">Download</button>
@@ -56,21 +56,21 @@ export default function MainComponent() {
                                 Trusted by thousands of people
                             </p>
                         </div>
-                        <div className="absolute right-[450px] 2xl:right-[500px] top-[150px] xl:top-[490px] 2xl:top-[580px] hidden xl:inline-block">
+                        <div className="absolute top-1/2 left-1/2 transform translate-x-[1000%] 2xl:translate-x-[1500%] translate-y-[-350%] hidden xl:inline-block">
                             <Thread />
                         </div>
                     </section>
                                      
                 </div> 
-                <div className="atm-card-section relative ">
+                <div className="atm-card-section relative md:p-[50px]">
                     <div className="atm-card h-[400px] xl:h-0"></div>
                     {/* <div className="absolute z-20 rotate-180 top-[-30px] sm:top-[-50px] md:top-[30px] w-full xl:hidden h-[20%]"><Wave/></div> */}
-                    <div className="z-[10] absolute top-1/2 left-1/2 transform translate-x-[-36%] translate-y-[-68%] scale-[.85]"><CardSvgTop /></div>
-                    <div className="absolute top-1/2 left-1/2 transform translate-x-[-60%] translate-y-[-42%] scale-[.85]"><CardSvgBottom /></div>
-                    <div className="hidden sm:inline-block">
+                    <div className="z-[10] absolute top-1/2 left-1/2 transform translate-x-[-36%]  xl:translate-x-[-98%] translate-y-[-68%] xl:translate-y-[-64.5%] scale-[.8] sm:scale-[1]"><CardSvgTop /></div>
+                    <div className="absolute top-1/2 left-1/2 transform translate-x-[-60%]  xl:translate-x-[-122%] translate-y-[-42%] xl:translate-y-[-35%] scale-[.8] sm:scale-[1]"><CardSvgBottom /></div>
+                    <div className="hidden md:absolute sm:inline-block top-1/2 left-1/2 transform translate-x-[-100%] translate-y-[280%] xl:translate-x-[-200%] xl:translate-y-[320%] ">
                         <Shadow />
                     </div>
-                    <div className="absolute top-[95%] right-[12%] md:right-[50px] xl:top-[310px] 2xl:top-[390px] xl:right-[48%]">
+                    <div className="absolute top-[95%] right-[12%] md:right-[150px] xl:top-[400px] 2xl:top-[430px] xl:right-[648%] 2xl:right-[860%]">
                         <File />
                     </div>
                 </div>
