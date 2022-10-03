@@ -7,7 +7,7 @@ import { FiveStar } from '../assets/fivestar';
 
 export default function FooterComponent() {
     return (
-        <footer className="inset-x-0 bottom-0">
+        <footer className="inset-x-0 bottom-0 xl:pt-[30px]">
             <div className="xl:hidden flex flex-row justify-center items-center pt-[50px] pb-[30px]">
                 <FiveStar/> 
                 <p className="pl-[12px] text-[#00000080] font-[300] leading-[21px] text-[12px] sm:text-[14px]">
@@ -15,12 +15,12 @@ export default function FooterComponent() {
                 </p>
             </div>
             <section>
-                <div className="grid justify-items-center 2xl:py-[45px]">
+                <div className="grid justify-items-center">
                     <FooterLogo />
                     <div className="rotate-90 py-[15px]"><HalfArrow /></div>
                 </div>
             </section>   
-            <div className="text-[10px] text-center py-[15px] 2xl:py-[0px]">
+            <div className="text-[10px] text-center py-[15px]">
                 <a href="https://github.com/shrewdmind">codename shrewdmind inc</a>
             </div>
         </footer>

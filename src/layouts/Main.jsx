@@ -19,16 +19,16 @@ export default function MainComponent() {
                             <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#DBFB58] rounded-full opacity-20 blur-2xl right-1/2 top-1/2 transform translate-x-[25%] translate-y-[200%] sm:translate-x-[90%] sm:translate-y-[0%] xl:translate-x-[100%] xl:translate-y-[10%]"></div>
                             <div className="absolute z-[-10] w-[187px] h-[187px] bg-[#1F365C] rounded-full opacity-20 blur-2xl right-1/2 top-1/2 transform translate-x-[70%] translate-y-[260%] sm:translate-x-[130%] sm:translate-y-[60%] xl:translate-x-[140%] xl:translate-y-[70%]"></div>
                         </div>
-                        <p className="text-[14px] pb-[13px] font-[500] xl:text-[14px] xl:leading-[21px] 2xl:pb-[26px]">
+                        <p className="text-[14px] pb-[13px] font-[500] xl:text-[14px] 2xl:text-[16px] xl:leading-[21px] 2xl:pb-[26px]">
                             We Provide
                         </p>
                         <div className="absolute left-[90px] top-[14px] xl:left-[100px] animate-bounce">
                             <Arrow/>
                         </div>
-                        <h1 className="text-[34px] sm:text-[60px] md:text-[65px] lg:text-[76px] xl:text-[76px] 2xl:text-[80px] lg:pt-[18px] lg:pb-[15px] font-[700] p-[0px] xl:pr-[350px] sm:pr-[100px] md:pr-[100px] leading-[38px] sm:leading-[70px] xl:leading-[84px] 2xl:pr-[450px] 2xl:pt-[10px]">
+                        <h1 className="text-[34px] sm:text-[60px] md:text-[65px] lg:text-[76px] xl:text-[76px] 2xl:text-[80px] lg:pt-[18px] lg:pb-[15px] font-[700] p-[0px] xl:pr-[350px] sm:pr-[100px] md:pr-[100px] leading-[38px] sm:leading-[70px] xl:leading-[84px] 2xl:leading-[94px] 2xl:pr-[450px] 2xl:pt-[10px]">
                             Easiest Payment for any business
                         </h1>
-                        <p className="text-[13px] sm:text-[13.5px] xl:text-[15px] leading-[19px] md:leading-[22.5px] xl:pr-[320px] 2xl:pr-[560px] xl:leading-[22.5px] pt-[27px] 2xl:pt-[45px] font-[300] sm:pr-[40px] md:pr-[120px]">
+                        <p className="text-[13px] sm:text-[13.5px] xl:text-[15px] 2xl:text-[16px] leading-[19px] md:leading-[22.5px] xl:pr-[320px] 2xl:pr-[560px] xl:leading-[22.5px] pt-[27px] 2xl:pt-[45px] font-[300] sm:pr-[40px] md:pr-[120px]">
                             Speed up your business payments. Use VPay for secure invoicing and bill payments for your every day business transactions and payable tools.
                         </p>
                         <div className="absolute left-[50%] xl:left-[55%] top-[-20px] md:inline-block xl:top-[-70px]">
@@ -65,12 +65,12 @@ export default function MainComponent() {
                 <div className="atm-card-section relative md:p-[50px]">
                     <div className="atm-card h-[400px] xl:h-0"></div>
                     {/* <div className="absolute z-20 rotate-180 top-[-30px] sm:top-[-50px] md:top-[30px] w-full xl:hidden h-[20%]"><Wave/></div> */}
-                    <div className="z-[10] absolute top-1/2 left-1/2 transform translate-x-[-36%]  xl:translate-x-[-98%] translate-y-[-68%] xl:translate-y-[-64.5%] scale-[.8] sm:scale-[1]"><CardSvgTop /></div>
-                    <div className="absolute top-1/2 left-1/2 transform translate-x-[-60%]  xl:translate-x-[-122%] translate-y-[-42%] xl:translate-y-[-35%] scale-[.8] sm:scale-[1]"><CardSvgBottom /></div>
+                    <div className="z-[10] absolute top-1/2 left-1/2 transform translate-x-[-36%] translate-y-[-68%] xl:translate-x-[-98%] xl:translate-y-[-64.5%] 2xl:translate-x-[-120%] 2xl:translate-y-[-64.5%] scale-[.8] sm:scale-[1] 2xl:scale-[1.2]"><CardSvgTop /></div>
+                    <div className="absolute top-1/2 left-1/2 transform translate-x-[-60%]  xl:translate-x-[-122%] translate-y-[-42%] xl:translate-y-[-35%] 2xl:translate-x-[-148%] 2xl:translate-y-[-30%] scale-[.8] sm:scale-[1] 2xl:scale-[1.2]"><CardSvgBottom /></div>
                     <div className="hidden md:absolute sm:inline-block top-1/2 left-1/2 transform translate-x-[-100%] translate-y-[280%] xl:translate-x-[-200%] xl:translate-y-[320%] ">
                         <Shadow />
                     </div>
-                    <div className="absolute top-[95%] right-[12%] md:right-[150px] xl:top-[400px] 2xl:top-[430px] xl:right-[648%] 2xl:right-[860%]">
+                    <div className="absolute top-[95%] right-[12%] md:right-[150px] xl:top-[400px] 2xl:top-[450px] xl:right-[648%] 2xl:right-[840%]">
                         <File />
                     </div>
                 </div>
