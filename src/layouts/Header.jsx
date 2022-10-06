@@ -12,9 +12,7 @@ export default function HeaderComponent() {
                     <h2 className="text-[20px] 2xl:text-[30px] pl-[10px] font-semibold">Vpay</h2>
                 </div>
                 <div className="order-last pl-[15px] sm:order-none text-[12px] xl:text-[14px] 2xl:text-[16px] sm:flex sm:flex-row-reverse">
-                    <NavBar />
-                    <div className='nav-pop-up sm:hidden absolute transform translate-x-[-93.5%] translate-y-[20px] bg-[#DBFB58] w-1/2 h-[150px] z-[10] opacity-[0.95] rounded-[20px]'>
-                    </div> 
+                    <NavBar /> 
                 </div>
                 <div className="justify-end flex flex-row text-[14px] 2xl:text-[16px] items-center sm:pl-[30px] 2xl:pl-[50px]">
                     <button className="w-[90px] xl:w-[102px] 2xl:w-[130px] h-[34px] xl:h-[40px] 2xl:h-[50px] sm:h-[40px] ml-[0px] whitespace-nowrap bg-[#0D1D32] text-white rounded-[30px]">Sign Up</button>

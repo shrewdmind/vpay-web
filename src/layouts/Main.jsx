@@ -25,17 +25,17 @@ export default function MainComponent() {
                         <div className="absolute left-[90px] top-[14px] xl:left-[100px] animate-bounce">
                             <Arrow/>
                         </div>
-                        <h1 className="text-[34px] sm:text-[60px] md:text-[65px] lg:text-[76px] xl:text-[76px] 2xl:text-[80px] lg:pt-[18px] lg:pb-[15px] font-[700] p-[0px] xl:pr-[350px] sm:pr-[100px] md:pr-[100px] leading-[38px] sm:leading-[70px] xl:leading-[84px] 2xl:leading-[94px] 2xl:pr-[450px] 2xl:pt-[10px]">
+                        <h1 className="text-[34px] sm:text-[60px] md:text-[65px] lg:text-[76px] xl:text-[76px] 2xl:text-[80px] lg:pt-[18px] lg:pb-[15px] font-[700] p-[0px] xl:pr-[80px] sm:pr-[100px] md:pr-[100px] leading-[38px] sm:leading-[70px] xl:leading-[84px] 2xl:leading-[94px] 2xl:pr-[200px] 2xl:pt-[10px]">
                             Easiest Payment for any business
                         </h1>
-                        <p className="text-[13px] sm:text-[13.5px] xl:text-[15px] 2xl:text-[16px] leading-[19px] md:leading-[22.5px] xl:pr-[320px] 2xl:pr-[560px] xl:leading-[22.5px] pt-[27px] 2xl:pt-[45px] font-[300] sm:pr-[40px] md:pr-[120px]">
+                        <p className="text-[13px] sm:text-[13.5px] xl:text-[15px] 2xl:text-[16px] leading-[19px] md:leading-[22.5px] xl:pr-[50px] 2xl:pr-[150px] xl:leading-[22.5px] pt-[27px] 2xl:pt-[45px] font-[300] sm:pr-[40px] md:pr-[120px]">
                             Speed up your business payments. Use VPay for secure invoicing and bill payments for your every day business transactions and payable tools.
                         </p>
-                        <div className="absolute left-[50%] xl:left-[55%] top-[-20px] md:inline-block xl:top-[-70px]">
+                        <div className="absolute left-[50%] xl:left-[65%] top-[-20px] md:inline-block xl:top-[-70px]">
                             <Thread />
                         </div>
                     </section>
-                    <section className="text-[14px] flex flex-col sm:flex-row justify-center items-center md:justify-start py-[40px] sm:py-[35px]">
+                    <section className="text-[14px] flex flex-col sm:flex-row justify-center items-center md:justify-start pt-[40px] pb-[20px] sm:pt-[35px]">
                         <div className="flex flex-row items-center px-[25px] md:px-[34px] py-[10px] m-0 bg-[#DBFB58] rounded-[30px]">
                             <Apple />
                             <button className="pl-[9px]">Download</button>
@@ -56,21 +56,22 @@ export default function MainComponent() {
                                 Trusted by thousands of people
                             </p>
                         </div>
-                        <div className="absolute top-1/2 left-1/2 transform translate-x-[1000%] 2xl:translate-x-[1500%] translate-y-[-350%] hidden xl:inline-block">
+                        <div className="absolute top-1/2 left-1/2 transform translate-x-[1800%] 2xl:translate-x-[2500%] translate-y-[-350%] hidden xl:inline-block">
                             <Thread />
                         </div>
                     </section>
                                      
                 </div> 
                 <div className="atm-card-section relative md:p-[50px]">
-                    <div className="atm-card h-[400px] xl:h-0"></div>
-                    {/* <div className="absolute z-20 rotate-180 top-[-30px] sm:top-[-50px] md:top-[30px] w-full xl:hidden h-[20%]"><Wave/></div> */}
-                    <div className="z-[10] absolute top-1/2 left-1/2 transform translate-x-[-36%] translate-y-[-68%] xl:translate-x-[-98%] xl:translate-y-[-64.5%] 2xl:translate-x-[-120%] 2xl:translate-y-[-64.5%] scale-[.8] sm:scale-[1] 2xl:scale-[1.2]"><CardSvgTop /></div>
-                    <div className="absolute top-1/2 left-1/2 transform translate-x-[-60%]  xl:translate-x-[-122%] translate-y-[-42%] xl:translate-y-[-35%] 2xl:translate-x-[-148%] 2xl:translate-y-[-30%] scale-[.8] sm:scale-[1] 2xl:scale-[1.2]"><CardSvgBottom /></div>
-                    <div className="hidden md:absolute sm:inline-block top-1/2 left-1/2 transform translate-x-[-100%] translate-y-[280%] xl:translate-x-[-200%] xl:translate-y-[320%] ">
-                        <Shadow />
+                    <div className='w-[275px] h-[475px] m-auto relative'>
+                        <div className="z-[10] absolute top-0 left-[14%] xl:left-[0%] animate-updown-motion"><CardSvgTop /></div>
+                        <div className="absolute top-[100px] left-[-16%] xl:left-[-32%] animate-[updown_3s_linear_1s_infinite]"><CardSvgBottom /></div>
+                        <div className="hidden md:absolute md:inline-block top-1/2 left-1/2 transform translate-x-[-100%] translate-y-[330%] xl:translate-x-[-120%] xl:translate-y-[340%] ">
+                            <Shadow />
+                        </div>
                     </div>
-                    <div className="absolute top-[95%] right-[12%] md:right-[150px] xl:top-[400px] 2xl:top-[450px] xl:right-[648%] 2xl:right-[840%]">
+                    {/* <div className="absolute z-20 rotate-180 top-[-30px] sm:top-[-50px] md:top-[30px] w-full xl:hidden h-[20%]"><Wave/></div> */}
+                    <div className="absolute top-[95%] right-[12%] xl:right-[180%] 2xl:right-[240%] xl:top-[70%] 2xl:top-[75%]">
                         <File />
                     </div>
                 </div>
